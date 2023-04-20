@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "my-project",
-    "slug": "my-project",
+    "name": "ImcCalculator",
+    "slug": "ImcCalculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/rh.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rh.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/rh.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dankt7.ImcCalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55f484de-1425-4de9-a40b-8db485e58bea"
+      }
     }
   }
 }
